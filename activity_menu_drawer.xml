@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/concesionario"
+            android:icon="@drawable/concesionario"
+            android:title="Acerca de Mycer" />
+        <item
+            android:id="@+id/administrador"
+            android:icon="@drawable/administracion"
+            android:title="Administrador" />
+        <item
+            android:id="@+id/vendedor"
+            android:icon="@drawable/vendedor"
+            android:title="Vendedor" />
+        <item
+            android:id="@+id/mecanico"
+            android:icon="@drawable/taller"
+            android:title="Mecanico" />
+        <item
+            android:id="@+id/jefetaller"
+            android:icon="@drawable/taller"
+            android:title="Jefe de taller" />
+        <item
+            android:id="@+id/recepcion"
+            android:icon="@drawable/recepcion"
+            android:title="Recepción" />
+        <item
+            android:id="@+id/IB"
+            android:icon="@drawable/empresa"
+            android:title="Inteligencia de negocio" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+            <item
+                android:id="@+id/salir"
+                android:icon="@drawable/salir"
+                android:title="salir" />
+        </menu>
+    </item>
+
+</menu>
